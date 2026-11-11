@@ -1,4 +1,4 @@
-// # Algoritmos de Busca e Ordenação v1.0.0
+// # Algoritmos de Busca e Ordenação v1.1.0
 //
 // ## Avisos!
 //
@@ -20,7 +20,8 @@ void main() {
     Scanner s = new Scanner(System.in);
 
     // Criando o array que será utilizado nos algoritmos de busca e ordenação e preenchendo com números automaticamente
-    int[] array = new int[100];
+    int nElementos = 100;
+    int[] array = new int[nElementos];
     for (int i = 0; i < array.length; i++) {
         array[i] = i + 1;
     }
@@ -46,6 +47,7 @@ void main() {
         System.out.println("7 - Ordenação por Seleção");
         System.out.println("8 - Verificar Ordenação");
         System.out.println("9 - Comparar Algoritmos");
+        System.out.println("10 - Mudar tamanho do array");
         System.out.println("0 - Sair");
 
         System.out.print("Selecione uma opção: ");
@@ -215,6 +217,7 @@ void main() {
                 Utils.EsperarEnter();
             }
 
+
             // Verifica se o array está ordenado ou não
             case 8 -> {
                 // Chamando o algoritmo de verificação de ordenação e medindo o tempo de execução
@@ -232,6 +235,7 @@ void main() {
                 Utils.ExibirTempo(tempoNs);
                 Utils.EsperarEnter();
             }
+
 
             // Comparação de desempenho de algoritmos
             case 9 -> {
@@ -367,6 +371,24 @@ void main() {
                 }
 
                 System.out.println();
+                Utils.EsperarEnter();
+            }
+
+
+            // Mudar o tamanho padrão do array para um tamanho customizado
+            case 10 -> {
+                System.out.print("\nTamanho atual do array: " + nElementos + "\n" +
+                        "Digite o novo tamanho do array: ");
+                nElementos = s.nextInt();
+
+                array = new int[nElementos];
+
+                for (int i = 0; i < array.length; i++) {
+                    array[i] = i + 1;
+                }
+
+                System.out.println("Tamanho do array modificado com sucesso!\n");
+
                 Utils.EsperarEnter();
             }
 
