@@ -4,6 +4,25 @@ Projeto educativo desenvolvido em Java com o objetivo de estudar, implementar e 
 
 A aplicação funciona por meio de um menu interativo no terminal, permitindo executar os algoritmos, visualizar as operações realizadas, verificar a ordenação de um array e analisar o desempenho das implementações.
 
+## Download
+
+Você pode baixar uma versão executável do projeto diretamente pela página de Releases, sem precisar clonar o repositório ou compilar o código-fonte.
+
+**[Acessar Releases e baixar o programa](https://github.com/cdGuilherme/algoritmos-busca-ordenacao/releases)**
+
+### Como executar
+
+1. Baixe o arquivo `algoritmos-busca-ordenacao.jar` na versão desejada.
+2. Certifique-se de ter o Java 26 instalado.
+3. Abra um terminal na pasta onde o arquivo foi baixado.
+4. Execute:
+
+```bash
+java -jar algoritmos-busca-ordenacao.jar
+```
+
+O programa será iniciado diretamente no terminal.
+
 ## Funcionalidades
 
 ### Algoritmos de busca
