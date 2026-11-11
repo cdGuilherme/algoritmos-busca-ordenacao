@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AtividadeBuscaOrdenacao:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AtividadeBuscaOrdenacao_jar</output-path>
+    <root id="archive" name="AtividadeBuscaOrdenacao.jar">
+      <element id="module-output" name="AtividadeBuscaOrdenacao" />
+    </root>
+  </artifact>
+</component>
