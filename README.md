@@ -171,6 +171,7 @@ Ao iniciar a aplicação, o usuário encontrará as seguintes opções:
 | 7 | Executar Ordenação por Seleção |
 | 8 | Verificar Ordenação |
 | 9 | Comparar Algoritmos |
+| 10 | Mudar tamanho do array |
 | 0 | Sair do programa |
 
 ## Análise de desempenho
